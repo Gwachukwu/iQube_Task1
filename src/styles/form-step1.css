@@ -1,0 +1,50 @@
+.form-inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  color: #000000;
+  margin-bottom: 1rem;
+}
+
+input,
+select {
+  background: #ffffff;
+  border: 1px solid #4e598c;
+  box-sizing: border-box;
+  border-radius: 10px;
+  height: 64px;
+  margin-bottom: 2rem;
+  font-size: 20px;
+  line-height: 30px;
+  color: #4f4f4f;
+  padding: 0 1rem;
+}
+
+.form-input_hint {
+  font-size: 16px;
+  line-height: 24px;
+  color: #817e9e;
+}
+
+.sub-step1 {
+  display: flex;
+  justify-content: space-between;
+}
+.lga-input,
+.state-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-step1 input {
+  width: 420px;
+}
+.sub-step1 select {
+  width: 260px;
+}

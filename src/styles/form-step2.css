@@ -1,0 +1,22 @@
+.card-numbers {
+  display: flex;
+  justify-content: space-between;
+  /* background-color:aqua; */
+}
+
+.card-numbers div {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-number input{
+  width: 391px;
+}
+
+.card-expiry input{
+  width: 132px;
+}
+
+.card-cvv input{
+  width: 104px;
+}
