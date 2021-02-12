@@ -1,0 +1,38 @@
+@media screen and (max-width: 800px) {
+h2{
+    font-size:1.5rem;
+}
+
+.form-container{
+    width: 90%;
+}
+
+ul{
+flex-wrap: wrap;
+border:none;
+}
+li,.btn-cancel{
+    padding: 1rem;
+}
+
+.sub-step1 input,.card-number input {
+    width: 20rem;
+  }
+
+  .step3-container {
+    width: auto;
+    height: auto;
+    overflow: auto;
+  }
+
+  .step3-total{
+   margin-bottom: 2rem;
+  }
+
+  .step4-countainer{
+      width:100%;
+      height: auto;
+      padding: 2rem 0;
+  }
+
+}

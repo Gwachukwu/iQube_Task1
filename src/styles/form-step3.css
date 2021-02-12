@@ -1,0 +1,70 @@
+.step3-container {
+  width: 47.25rem;
+  height: 25.313rem;
+  background: #ffffff;
+  box-shadow: 0px 10px 15px rgba(33, 30, 67, 0.08);
+  border-radius: 10px;
+  margin: 0 2rem;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  margin: 4rem auto;
+  overflow: hidden;
+}
+
+.step3-header {
+  width: 100%;
+  height: 70px;
+  background: #2f80ed;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step3-header span,
+.step3-total p {
+  margin: 0 5rem;
+}
+.step3-header .price-header {
+  padding-right: 3.5rem;
+}
+.step3-items p{
+  font-weight: normal;
+  color: #4e598c;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2rem;
+  margin: 3rem 5rem 0;
+}
+
+.step3-items_price{
+ padding-right: 2rem;
+}
+
+hr{
+    margin: 2rem 2rem;
+}
+.step3-total {
+  width: 38.375rem;
+  height: 3.625rem;
+  border: 1px solid #817e9e;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #4E598C;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.step3-total span{
+    margin: 0 2rem;
+}
+
+

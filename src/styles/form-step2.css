@@ -1,7 +1,7 @@
 .card-numbers {
   display: flex;
   justify-content: space-between;
-  /* background-color:aqua; */
+  flex-wrap: wrap;
 }
 
 .card-numbers div {
@@ -10,11 +10,11 @@
 }
 
 .card-number input{
-  width: 391px;
+  width: 24.438rem;
 }
 
 .card-expiry input{
-  width: 132px;
+  width: 8.25rem;
 }
 
 .card-cvv input{

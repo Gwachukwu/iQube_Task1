@@ -6,8 +6,8 @@
 label {
   font-style: normal;
   font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   color: #000000;
   margin-bottom: 1rem;
 }
@@ -18,23 +18,24 @@ select {
   border: 1px solid #4e598c;
   box-sizing: border-box;
   border-radius: 10px;
-  height: 64px;
+  height: 4rem;
   margin-bottom: 2rem;
-  font-size: 20px;
-  line-height: 30px;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
   color: #4f4f4f;
   padding: 0 1rem;
 }
 
 .form-input_hint {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #817e9e;
 }
 
 .sub-step1 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .lga-input,
 .state-input {
@@ -43,8 +44,8 @@ select {
 }
 
 .sub-step1 input {
-  width: 420px;
+  width: 26.25rem;
 }
 .sub-step1 select {
-  width: 260px;
+  width: 16.25rem;
 }

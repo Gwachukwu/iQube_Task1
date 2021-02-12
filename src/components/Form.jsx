@@ -10,6 +10,10 @@ const Form = () => {
   const [step, setStep] = useState(1);
 
   return (
+    <>
+    <div className="arrow">
+        <p>&#8250;</p>
+      </div>
     <div className="form-container">
     <Header step={step}/>
       <form>
@@ -22,6 +26,7 @@ const Form = () => {
           <FormBtn step={step} setStep={setStep}/>
       </form>
     </div>
+    </>
   );
 };
 

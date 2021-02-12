@@ -7,32 +7,40 @@ const FormStep2 = ({ step }) => {
   }
   return (
     <div className="form-inputs">
-      <label htmlFor="cardName">Name on Card</label>
-      <input type="text" name="cardName" id="cardName" />
-      <label htmlFor="cardType">Card Type</label>
+      <label htmlFor="cardName">
+        Name on Card <span style={{ color: "red" }}>*</span>
+      </label>
+      <input type="text" name="cardName" id="cardName" placeholder="Opara Linus Ahmed"/>
+      <label htmlFor="cardType">
+        Card Type <span style={{ color: "red" }}>*</span>
+      </label>
       <select name="cardType" id="cardType">
         <option value="Visa">Visa</option>
       </select>
       <div className="card-numbers">
         <div className="card-number">
-          <label htmlFor="cardDetails">Card Details</label>
+          <label htmlFor="cardDetails">
+            Card Details <span style={{ color: "red" }}>*</span>
+          </label>
           <Cleave
-            placeholder="Enter your credit card number"
+            placeholder="44960 44960 44960 44960"
             options={{ creditCard: true }}
           />
         </div>
         <div className="card-expiry">
           <label htmlFor="expiryDate">
-            Expiry Date<span style={{ color: "red" }}>*</span>
+            Expiry Date <span style={{ color: "red" }}>*</span>
           </label>
           <Cleave
-            placeholder="MM/YY"
+            placeholder="04/23"
             options={{ date: true, datePattern: ["m", "y"] }}
           />
         </div>
         <div className="card-cvv">
-        <label htmlFor="cvv">CVV<span style={{ color: "red" }}>*</span></label>
-      <input type="text" name="cvv" id="cvv" maxLength={3}/>
+          <label htmlFor="cvv">
+            CVV <span style={{ color: "red" }}>*</span>
+          </label>
+          <input type="text" name="cvv" id="cvv" maxLength={3} placeholder="923"/>
         </div>
       </div>
     </div>
